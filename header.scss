@@ -1,0 +1,19 @@
+@import "colors";
+header {
+  background-color: $secondary-color;
+
+  section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	.auth-links {
+	  margin-left: auto;
+	}
+  }
+
+  nav {
+	background-color: $main-color;
+  }
+
+}

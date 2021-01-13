@@ -1,0 +1,32 @@
+$gap-width: 10px;
+
+.show-item {
+  display: grid;
+  grid-template-areas: "thumbnail thumbnail"
+		"title title"
+		"favorite ranks";
+  grid-gap: $gap-width;
+
+  h3 {
+	grid-area: title;
+	margin: 0;
+	padding: 0 0 $gap-width $gap-width;
+	border-bottom: 1px solid #13ead7;
+	font-weight: normal;
+  }
+
+  .show-image {
+	grid-area: thumbnail;
+  }
+
+  .favorite {
+	grid-area: favorite;
+	text-align: center;
+  }
+
+  .ranks {
+	grid-area: ranks;
+	text-align: center;
+  }
+
+}

@@ -1,0 +1,13 @@
+@import "colors";
+@import "show-item";
+
+.shows-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .show-item {
+	width: 210px;
+	margin: 20px;
+	background-color: $main-color;
+  }
+}

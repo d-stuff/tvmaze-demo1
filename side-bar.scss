@@ -1,0 +1,15 @@
+
+.main-content aside {
+  width: 200px;
+  height: 100px;
+  order: 2;
+
+  @media all and (max-width: 700px) {
+	width: 100px;
+  }
+
+  @media all and (max-width: 600px) {
+	display: none;
+  }
+}
+

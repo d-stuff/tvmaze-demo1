@@ -1,0 +1,12 @@
+@mixin equal-boxes($isVertical: false) {
+  display: flex;
+
+  @if ($isVertical) {
+	flex-direction: column;
+  }
+
+  > * {
+	flex: 1;
+	text-align: center;
+  }
+}
